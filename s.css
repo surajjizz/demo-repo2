@@ -1,0 +1,13 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+@media screen and (min-width:800px){
+    div{
+        background-color: blue;
+        transform: scaleY(2);
+    }
+
+}
